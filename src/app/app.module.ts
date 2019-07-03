@@ -12,6 +12,8 @@ import {SelectButtonModule} from 'primeng/selectbutton';
 import {FormsModule} from '@angular/forms';
 import {MenubarModule} from 'primeng/menubar';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {SpinnerModule} from 'primeng/spinner';
+import {InputSwitchModule} from 'primeng/inputswitch';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     FormsModule,
     MenubarModule,
     BrowserAnimationsModule,
+    SpinnerModule,
+    InputSwitchModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
